@@ -1,7 +1,8 @@
 FROM ubuntu:latest
 
 # Install necessary packages
-RUN apt-get update && apt-get install -y <your-dependencies> 
+RUN apt-get update 
+# && apt-get install -y <your-dependencies> 
 
 # Set the working directory
 WORKDIR /app
