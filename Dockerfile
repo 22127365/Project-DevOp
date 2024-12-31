@@ -1,8 +1,7 @@
 FROM ubuntu:latest
 
 # Install necessary packages
-RUN apt-get update 
-# && apt-get install -y <your-dependencies> 
+RUN apt-get update && apt-get install -y python3
 
 # Set the working directory
 WORKDIR /app
